@@ -14,8 +14,8 @@ Make sure you have the following installed on your machine:
 ### 1. Clone the Repository
 First, clone the project repository to your local machine:
 ```bash
-git clone <repository-url>
-cd <repository-directory>
+git clone <https://github.com/rishabhjambhulkar/ConnectVerse/tree/main>
+
 ```
 
 ### 2. Set Up the API Server
