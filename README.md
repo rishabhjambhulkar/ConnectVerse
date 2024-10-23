@@ -46,3 +46,38 @@ npm run dev
 - The backend server will be running on `http://localhost:4000` (or whichever port you have configured).
 - The frontend application will typically be available at `http://localhost:5173` (or the port specified in your Vite configuration).
 
+
+
+
+
+
+Here’s a structured document based on your description of the full-stack web application:
+
+---
+
+# Full-Stack Web Application Overview
+
+## Introduction
+This is a full-stack web application built with the MERN (MongoDB, Express, React, Node.js) stack. It incorporates authentication features that allow users to sign up, log in, and log out, providing access to protected routes exclusively for authenticated users.
+
+## Technology Stack
+- **Frontend**: 
+  - **React**: A JavaScript library for building user interfaces.
+  - **React Router**: A library for client-side routing to enable navigation within the application.
+
+- **Backend**: 
+  - **Node.js**: A JavaScript runtime built on Chrome's V8 engine, used for server-side development.
+  - **Express**: A web application framework for Node.js, designed for building web applications and APIs.
+  - **MongoDB**: A NoSQL database for storing application data.
+
+## Authentication
+Authentication is implemented using **JSON Web Tokens (JWT)**, featuring:
+- **Access Token**: A short-lived token that grants access to protected routes.
+- **Refresh Token**: A longer-lived token used to obtain a new access token when the original access token expires.
+
+### Benefits
+This setup enhances security and user experience by:
+- Allowing users to stay authenticated without frequent logins.
+- Ensuring that access to sensitive routes is secured.
+
+
